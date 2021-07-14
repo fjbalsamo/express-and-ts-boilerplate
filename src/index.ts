@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import cors from 'cors';
+import cors from "cors";
 
 const app = express();
 /**
@@ -15,7 +15,7 @@ app.use(cors());
 const port: string = process.env.PORT || "3000";
 
 app.use("/", (req: Request, res: Response) => {
-    res.status(200).json({message: 'hello from server'})
+  res.status(200).json({ message: "hello from server" });
 });
 
 app.listen(port, () => {
