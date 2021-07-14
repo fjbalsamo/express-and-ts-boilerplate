@@ -1,0 +1,10 @@
+{
+  "name": "express-and-ts",
+  "version": "1.0.0",
+  "description": "expressJS and typescript boilerplate",
+  "main": "index.js",
+  "repository": "https://github.com/fjbalsamo/express-and-ts-boilerplate.git",
+  "author": "fjbalsamo <fjbalsamo@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
